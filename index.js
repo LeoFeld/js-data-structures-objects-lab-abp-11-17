@@ -21,5 +21,7 @@ function deleteFromDriverByKey() {
 }
 
 function destructivelyDeleteFromDriverByKey() {
+  let driver = {name:"Sam"};
+
   delete driver.name;
 }
